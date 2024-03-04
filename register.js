@@ -26,8 +26,8 @@ let txtAge = document.querySelector
 
 const button  = document.querySelector('button')
 button.onclick = () => {
-    console.log(`txtUsername: ${txtUsername.value},txtPassword: ${txtPassword}
-    ,cnfrmPassword: ${cnfrmPassword},txtage: ${txtAge}`)
+    console.log(`txtUsername: ${txtUsername.value},txtPassword: ${txtPassword.value}
+    ,cnfrmPassword: ${cnfrmPassword.value},txtage: ${txtAge.value}`)
 }
 
 
